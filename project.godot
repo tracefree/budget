@@ -10,6 +10,20 @@ config_version=5
 
 [application]
 
-config/name="budget"
+config/name="Budget"
+run/main_scene="uid://b2hw5s66rxxre"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1440
+window/size/viewport_height=3120
+window/size/window_width_override=720
+window/size/window_height_override=1560
+window/handheld/orientation=1
+
+[rendering]
+
+renderer/rendering_method="mobile"
+textures/vram_compression/import_etc2_astc=true

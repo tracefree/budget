@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://c5v7ing0oudwf"]
+
+[ext_resource type="Script" uid="uid://bmk2ycsq13ta8" path="res://receipt_line.gd" id="1_s3xfs"]
+
+[node name="ReceiptLine" type="HBoxContainer"]
+anchors_preset = 10
+anchor_right = 1.0
+grow_horizontal = 2
+script = ExtResource("1_s3xfs")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 2
